@@ -24,7 +24,7 @@ h1 {
   color: white;
   font-size: 2.5em;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 1);
   text-shadow: 0 1px 0 hotpink;
   padding: 10px;
   text-align: center;
@@ -58,7 +58,7 @@ h1 {
 }
 
 form {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
   text-align: left;
   border: 1px solid hotpink;
   border-radius: 4px;
@@ -124,7 +124,7 @@ label {
   font-size: 30px;
   font-weight: bold;
   text-shadow: 0 1px 0 hotpink;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0);
   width: 300px;
   padding: 10px;
   border: 1px solid hotpink;
@@ -139,7 +139,7 @@ label {
   font-weight: bold;
   text-align: center;
   text-shadow: 0 1px 0 hotpink;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
   border: 1px solid hotpink;
   border-radius: 4px;
   margin: 10% auto;
@@ -154,7 +154,7 @@ label {
   font-weight: bold;
   text-align: center;
   text-shadow: 0 1px 0 hotpink;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
   border: 1px solid hotpink;
   border-radius: 4px;
   margin: 10% auto;
@@ -188,7 +188,7 @@ label {
   padding: 20px;
   font-weight: bold;
   text-shadow: 0 1px 0 hotpink;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
   border: 1px solid hotpink;
   border-radius: 4px;
   margin: 100px auto;
