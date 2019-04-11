@@ -96,19 +96,15 @@ function checkUserAnswer(answerSelected) {
 
 function generateCorrectFeedback() {
   const correctFeedback = `
-    <main role="main">
       <h2 class="feedbackText correctText">Correct! You got it.</h2>
-      <button class="nextButton" type="submit">Next</button>
-    </main>`;
-  $('.container').html(correctFeedback);
+      <button class="nextButton" type="submit">Next</button>;
+  $('.container').html(correctFeedback);`
 }
 
 function generateIncorrectFeedback() {
   const incorrectFeedback = ` 
-    <main role="main">
       <h2 class="feedbackText incorrectText">Nope! The answer is: ${store[questionIndex].correctAnswer}.</h2>
-      <button class="nextButton" type="submit">Next</button>
-    </main>`;
+      <button class="nextButton" type="submit">Next</button>`;
   $('.container').html(incorrectFeedback);
 }
 
